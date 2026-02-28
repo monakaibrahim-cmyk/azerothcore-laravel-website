@@ -73,8 +73,8 @@ class Account extends Authenticatable
 
 	protected $casts = [
 		self::ID => 'int',
-		self::SALT => 'binary',
-		self::VERIFIER => 'binary',
+		// self::SALT => 'binary',
+		// self::VERIFIER => 'binary',
 		self::SESSION_KEY => 'binary',
 		self::TOTP_SECRET => 'varbinary',
 		self::JOINDATE => 'datetime',
